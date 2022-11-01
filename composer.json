@@ -1,8 +1,19 @@
 {
+    "name": "tjg/microframwork",
+    "description": "Micro Framewor MVC",
+    "license": "MIT",
+    "type": "project",
+    "authors": [{
+        "name": "Thiago Cruz",
+        "email": "thiagocarlos@id.uff.br"
+    }],
     "autoload":{
-        "psr4":{
+        "psr-4":{
             "App\\": "app/",
             "Core\\": "core"
         }
+    },
+    "require": {
+        "php" : ">=5.4"
     }
 }
