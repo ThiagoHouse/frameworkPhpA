@@ -1,5 +1,3 @@
 <?php
 
-echo "Framework Php A";
-
-?>
+require_once __DIR__."/../vendor/autoload.php";
