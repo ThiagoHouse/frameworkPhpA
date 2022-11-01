@@ -1,1 +1,5 @@
-teste
+<?php
+
+echo "Framework Php A";
+
+?>
