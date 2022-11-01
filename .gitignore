@@ -1,0 +1,5 @@
+
+# Arquivos e pastas ignorados 
+
+composer.lock
+vendor
