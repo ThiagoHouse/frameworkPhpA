@@ -28,6 +28,10 @@ class Route
 
     private function run()
     {
+        $found = false;
+        $action = '';
+        $controller = '';
+
         $url = $this->getUrl();
         $urlArray = explode('/', $url);
 
@@ -51,7 +55,8 @@ class Route
         }
 
         if ($found){
-
+            $controller = Container::newController($controller);
+            $controller->$action();
         }
     }
 }
